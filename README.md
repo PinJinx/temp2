@@ -100,7 +100,7 @@ let allStudents = [
   }
   console.log(studentsWhoPass);
 
-Arrays and Loops:
+4-Arrays and Loops:
 
 Challenge:
   There are other ways of looping over arrays other than for and while loops. There are forEach, for-of, and map. Rewrite your array loop using one of these techniques.
