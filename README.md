@@ -1,7 +1,7 @@
 ```
 1-js-basics:
 
-Challange:
+Challenge:
 JavaScript is notorious for its surprising ways of handling datatypes on occasion. Do a bit of research on these 'gotchas'. For example: case sensitivity can bite! Try this in your console: let age = 1; let Age = 2; age == Age (resolves false -- why?). What other gotchas can you find?
 
 Gotcha is term used for tricky parts in javascripts dealing with case sensitivity. Unlike other programing languages java script is different from rest of them in this aspect these mainly include
@@ -39,9 +39,11 @@ To build a shopping cart, we need to choose the appropriate data types to repres
 
 
 
+
+
 2-functions-methords;
 
-Challange:
+Challenge:
 Can you articulate in one sentence the difference between functions and methods? Give it a try!
 A function is a block of code that performs a task, while a method is a function specifically associated with an object, allowing it to interact with itself.
 
@@ -60,6 +62,8 @@ function Myfunc(){
 
 sum(1,4);
 Myfunc();
+
+
 
 
 3-making decisions
@@ -99,6 +103,9 @@ let allStudents = [
     }
   }
   console.log(studentsWhoPass);
+
+
+
 
 4-Arrays and Loops:
 
