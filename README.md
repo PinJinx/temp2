@@ -1,3 +1,19 @@
+**Title**
+This PR is the solution to the 'js basics'  #<ONE>
+
+**Description**
+- What all did you learn?
+After having completed this task i got to know a lot about basic frame work of javascript like declaring variables,functions how to use loops if statements ext
+it is like a mixture of python and c or c# where the formating is like c but it is also easy like python
+
+- Any difficulties that you faced, and how you solved it?
+  Most of the challenges and assaignments were easy nothing much difficult was faced.
+  
+- Did you have to learn anything new to do the assignments?
+  Most of the assaignment was well documented that I could easily recognise how to do the solution and where it is in the documentation.
+  
+- Any thing else you would like to share about the topic?
+This was a really good starting point for any biginners who just started to learn javascript
 ```
 1-js-basics:
 
