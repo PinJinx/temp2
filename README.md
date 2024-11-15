@@ -1,6 +1,6 @@
-1-js-basics:
+#1-js-basics:
 
-Challange:
+##Challange:
 JavaScript is notorious for its surprising ways of handling datatypes on occasion. Do a bit of research on these 'gotchas'. For example: case sensitivity can bite! Try this in your console: let age = 1; let Age = 2; age == Age (resolves false -- why?). What other gotchas can you find?
 
 Gotcha is therm used for tricky parts in javascripts dealing with case sensitivity. Unlike other programing languages java script is different from rest of them in this aspect these mainly include
@@ -13,19 +13,19 @@ c)The default base for parseInt is a radix 10. However if like parseInt("0x11") 
 
 
 
-Assaignment:
+##Assaignment:
 Imagine you are building a shopping cart. Write some documentation on the data types that you would need to complete your shopping experience. How did you arrive at your choices?
 
 
 
 
-2-functions-methords;
+#2-functions-methords;
 
-Challange:
+##Challange:
 Can you articulate in one sentence the difference between functions and methods? Give it a try!
 A function is a block of code that performs a task, while a method is a function specifically associated with an object, allowing it to interact with itself.
 
-Assaignment:
+##Assaignment:
 Create different functions, both functions that return something and functions that don't return anything.
 See if you can create a function that has a mix of parameters and parameters with default values.
 ```
@@ -43,9 +43,9 @@ Myfunc();
 ```
 
 
-3-making decisions
+#3-making decisions
 
-Challenge:
+##Challenge:
 Create a program that is written first with logical operators, and then rewrite it using a ternary expression. What's your preferred syntax?
 ```
 let a = 3;
@@ -59,7 +59,7 @@ else{
 
 a > b ? console.log("a is bigger") : console.log("b is bigger");
 ```
-Assaignment:
+##Assaignment:
 Play around with operators. Here's a suggestion for a program you can implement:
 You have a set of students from two different grading systems.
 
@@ -81,10 +81,9 @@ let allStudents = [
   }
   console.log(studentsWhoPass);```
 
+#Arrays and Loops:
 
-Arrays and Loops:
-
-Challenge:
+##Challenge:
   There are other ways of looping over arrays other than for and while loops. There are forEach, for-of, and map. Rewrite your array loop using one of these techniques.
 
 ```
@@ -102,7 +101,7 @@ Challenge:
   iceCreamFlavors.map((x)=>console.log(x))
 ```
 
-Assaignment:
+##Assaignment:
 Create a program that lists every 3rd number between 1-20 and prints it to the console.
 ```
   for(let i =1;i<20;i+=3){
