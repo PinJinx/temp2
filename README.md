@@ -4,7 +4,7 @@
 Challange:
 JavaScript is notorious for its surprising ways of handling datatypes on occasion. Do a bit of research on these 'gotchas'. For example: case sensitivity can bite! Try this in your console: let age = 1; let Age = 2; age == Age (resolves false -- why?). What other gotchas can you find?
 
-Gotcha is therm used for tricky parts in javascripts dealing with case sensitivity. Unlike other programing languages java script is different from rest of them in this aspect these mainly include
+Gotcha is term used for tricky parts in javascripts dealing with case sensitivity. Unlike other programing languages java script is different from rest of them in this aspect these mainly include
 
 a) difference in equality operators like == is not same as === == means that the data type doesnt need to match only the value is check like "12" == 12 will return true on the other hand === is a strict checker where the type also needs to be same
 
