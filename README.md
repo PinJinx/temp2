@@ -65,7 +65,7 @@ Myfunc();
 
 ## 3-making decisions
 
-##Challenge:
+## Challenge:
 Create a program that is written first with logical operators, and then rewrite it using a ternary expression. What's your preferred syntax?
 ```
 let a = 3;
@@ -79,7 +79,7 @@ else{
 
 a > b ? console.log("a is bigger") : console.log("b is bigger");
 ```
-##Assaignment:
+## Assaignment:
 Play around with operators. Here's a suggestion for a program you can implement:
 You have a set of students from two different grading systems.
 
