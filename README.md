@@ -99,15 +99,14 @@ let allStudents = [
         studentsWhoPass.push(allStudents[i]);
     }
   }
-  console.log(studentsWhoPass);```
-
+  console.log(studentsWhoPass);
+```
 # Arrays and Loops:
 
 ## Challenge:
   There are other ways of looping over arrays other than for and while loops. There are forEach, for-of, and map. Rewrite your array loop using one of these techniques.
-
 ```
-  let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
+let iceCreamFlavors = ["Chocolate", "Strawberry", "Vanilla", "Pistachio", "Rocky Road"];
   for (let i = 0; i < iceCreamFlavors.length; i++) {
     console.log(iceCreamFlavors[i]);
   }
@@ -123,6 +122,7 @@ let allStudents = [
 
 ## Assignment:
 Create a program that lists every 3rd number between 1-20 and prints it to the console.
+
 ```
   for(let i =1;i<20;i+=3){
     console.log(i)
