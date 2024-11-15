@@ -13,7 +13,7 @@ c)The default base for parseInt is a radix 10. However if like parseInt("0x11") 
 
 
 
-### Assaignment:
+### Assignment:
 Imagine you are building a shopping cart. Write some documentation on the data types that you would need to complete your shopping experience. How did you arrive at your choices?
 
 To build a shopping cart, we need to choose the appropriate data types to represent different aspects of the cart. Here's a breakdown:
@@ -45,7 +45,7 @@ To build a shopping cart, we need to choose the appropriate data types to repres
 Can you articulate in one sentence the difference between functions and methods? Give it a try!
 A function is a block of code that performs a task, while a method is a function specifically associated with an object, allowing it to interact with itself.
 
-### Assaignment:
+### Assignment:
 Create different functions, both functions that return something and functions that don't return anything.
 See if you can create a function that has a mix of parameters and parameters with default values.
 ```
@@ -79,7 +79,7 @@ else{
 
 a > b ? console.log("a is bigger") : console.log("b is bigger");
 ```
-## Assaignment:
+## Assignment:
 Play around with operators. Here's a suggestion for a program you can implement:
 You have a set of students from two different grading systems.
 
@@ -121,7 +121,7 @@ let allStudents = [
   iceCreamFlavors.map((x)=>console.log(x))
 ```
 
-## Assaignment:
+## Assignment:
 Create a program that lists every 3rd number between 1-20 and prints it to the console.
 ```
   for(let i =1;i<20;i+=3){
