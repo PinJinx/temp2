@@ -1,4 +1,4 @@
-#1-js-basics:
+###1-js-basics:
 
 ##Challange:
 JavaScript is notorious for its surprising ways of handling datatypes on occasion. Do a bit of research on these 'gotchas'. For example: case sensitivity can bite! Try this in your console: let age = 1; let Age = 2; age == Age (resolves false -- why?). What other gotchas can you find?
