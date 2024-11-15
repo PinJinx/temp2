@@ -1,3 +1,4 @@
+```
 ## 1-js-basics:
 
 ### Challange:
@@ -127,4 +128,5 @@ Create a program that lists every 3rd number between 1-20 and prints it to the c
   for(let i =1;i<20;i+=3){
     console.log(i)
   }
+```
 ```
