@@ -1,6 +1,6 @@
-###1-js-basics:
+## 1-js-basics:
 
-##Challange:
+### Challange:
 JavaScript is notorious for its surprising ways of handling datatypes on occasion. Do a bit of research on these 'gotchas'. For example: case sensitivity can bite! Try this in your console: let age = 1; let Age = 2; age == Age (resolves false -- why?). What other gotchas can you find?
 
 Gotcha is therm used for tricky parts in javascripts dealing with case sensitivity. Unlike other programing languages java script is different from rest of them in this aspect these mainly include
@@ -13,19 +13,39 @@ c)The default base for parseInt is a radix 10. However if like parseInt("0x11") 
 
 
 
-##Assaignment:
+### Assaignment:
 Imagine you are building a shopping cart. Write some documentation on the data types that you would need to complete your shopping experience. How did you arrive at your choices?
 
+To build a shopping cart, we need to choose the appropriate data types to represent different aspects of the cart. Here's a breakdown:
+
+    Product Details: Each product in the cart can be represented by an object containing properties like id, name, price, quantity, and total.
+        Example: { id: 1, name: "Laptop", price: 999.99, quantity: 1, total: 999.99 }
+
+    Cart Total: A number to store the total value of the cart (i.e., the sum of all items' totals).
+        Example: let cartTotal = 999.99;
+
+    Customer Information: A string or object to store the customer's name, email, and address.
+        Example: let customerInfo = { name: "John Doe", email: "john@example.com", address: "123 Main St" };
+
+    Shopping Cart Items: An array to store the list of products in the cart.
+        Example: let cartItems = [{ id: 1, name: "Laptop", price: 999.99, quantity: 1, total: 999.99 }];
+
+    Discount or Coupon: A boolean or number to track if there is a discount or coupon applied to the cart.
+        Example: let discountApplied = true; or let discountAmount = 50;
+
+    Quantity Updates: A number for tracking the number of each item in the cart.
+        Example: let itemQuantity = 3;
 
 
 
-#2-functions-methords;
 
-##Challange:
+## 2-functions-methords;
+
+### Challange:
 Can you articulate in one sentence the difference between functions and methods? Give it a try!
 A function is a block of code that performs a task, while a method is a function specifically associated with an object, allowing it to interact with itself.
 
-##Assaignment:
+### Assaignment:
 Create different functions, both functions that return something and functions that don't return anything.
 See if you can create a function that has a mix of parameters and parameters with default values.
 ```
@@ -43,7 +63,7 @@ Myfunc();
 ```
 
 
-#3-making decisions
+## 3-making decisions
 
 ##Challenge:
 Create a program that is written first with logical operators, and then rewrite it using a ternary expression. What's your preferred syntax?
@@ -81,9 +101,9 @@ let allStudents = [
   }
   console.log(studentsWhoPass);```
 
-#Arrays and Loops:
+# Arrays and Loops:
 
-##Challenge:
+## Challenge:
   There are other ways of looping over arrays other than for and while loops. There are forEach, for-of, and map. Rewrite your array loop using one of these techniques.
 
 ```
@@ -101,7 +121,7 @@ let allStudents = [
   iceCreamFlavors.map((x)=>console.log(x))
 ```
 
-##Assaignment:
+## Assaignment:
 Create a program that lists every 3rd number between 1-20 and prints it to the console.
 ```
   for(let i =1;i<20;i+=3){
