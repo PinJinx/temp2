@@ -1,10 +1,21 @@
 ```1-intro-to-html
 Challenge
-There are some wild 'older' tags in HTML that are still fun to play with, though you shouldn't use deprecated tags such as these tags in your markup. Still, can you use the old <marquee> tag to make the h1 title scroll horizontally? (if you do, don't forget to remove it afterwards)
+There are some wild 'older' tags in HTML that are still fun to play with, though you shouldn't use deprecated
+tags such as these tags in your markup. Still, can you use the old <marquee> tag to make the h1 title scroll
+horizontally? (if you do, don't forget to remove it afterwards)
+
+
+The <marquee> tag was a classic HTML element used to create scrolling or bouncing text and images.
+It allowed developers to make content move across the screen horizontally or vertically with minimal effort
+Some other tags I experimented are <blink>,<big>,<small> etc
+Code:
+<marquee behavior="scroll" direction="left">This text scrolls left!</marquee>
 
 
 Assaignment
-Imagine you are designing, or redesigning, your personal web site. Create a graphical mockup of your site, and then write down the HTML markup you would use to build out the various elements of the site. You can use software of your choice, just make sure to hand-code the HTML markup.
+Imagine you are designing, or redesigning, your personal web site. Create a graphical mockup of your site,
+and then write down the HTML markup you would use to build out the various elements of the site.
+You can use software of your choice, just make sure to hand-code the HTML markup.
 
 ScreenShot:
 This is the MarkUp and html solution for the assignment.
@@ -55,7 +66,8 @@ Solution:
 
 2-Intro-to-css
 Challenge
-Add a 'bubble' shine to the left bottom area of the jar to make it look more glasslike. You will be styling the .jar-glossy-long and .jar-glossy-short to look like a reflected shine. 
+Add a 'bubble' shine to the left bottom area of the jar to make it look more glasslike.
+You will be styling the .jar-glossy-long and .jar-glossy-short to look like a reflected shine. 
 Solution:
 The chaged parts of css file to make the shine is given below.
 .jar-glossy-long{
@@ -87,18 +99,14 @@ ScreenShot:
 ![image](https://github.com/user-attachments/assets/54e59c9b-6088-4874-85b4-77f8f99ae856)
 ```
 Assignment:
-Restyle the terrarium using either Flexbox or CSS Grid, and take screenshots to show that you have tested it on several browsers. You might need to change the markup so create a new version of the app with the art in place for your refactor. Don't worry about making the elements draggable; only refactor the HTML and CSS for now.
+Restyle the terrarium using either Flexbox or CSS Grid, and take screenshots to show that you have tested it on several browsers.
+You might need to change the markup so create a new version of the app with the art in place for your refactor.
+Don't worry about making the elements draggable; only refactor the HTML and CSS for now.
 
 
 Solution:
-Apart from the heading that uses position as it need to be centered i have change all the other elements code like left and right container so as to make use Flexbox to display childrens and allign themselves
+I have changed all the other elements code like left and right container so as to make use Flexbox to display childrens and allign themselves
 changed parts of code are listed below
-h1 {
-	color: #3a241d;
-	text-align: center;
-	position: absolute;
-	width:100%;
-}
 #page{
 	top: 0px;
 	width:100%;
@@ -162,10 +170,15 @@ Code:
 	});
 
 Assignment:
+Research the DOM a little more by 'adopting' a DOM element. Visit the MDN's list of DOM interfaces and pick one.
+Find it being used on a web site in the web, and write an explanation of how it is used.
+
 I chose the Node interface, a big part of the DOM API. The Node interface represents
 a single node in the document tree and serves as the base class for many DOM objects
 such as Element, Document etc. It provides properties and methods like .parentNode,
 .childNodes which are applicable to all node types.
+
+
 Example: Using Node in Discord
 In web applications like Discord, nodes are used to manage dynamic content.
 For example, when a user sends a message, the application creates a new text node or element node
