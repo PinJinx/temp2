@@ -133,10 +133,18 @@ h1 {
 3-Intro to Dom And Closures
 
 Challenge:
-Add new event handler to your closure to do something more to the plants; for example, double-click a plant to bring it to the front. Get creative!
+Add new event handler to your closure to do something more to the plants;
+for example, double-click a plant to bring it to the front. Get creative!
 
 Solution:
-For this challenge I have added this feature such that if you double click inside the jar gravity takes over the plant and it falls to the bottom.For implementing this I have add 3px to the top offset of the element until it reaches the bottom of lid when it reaches the bottom that is its y-position from the top > 480 then i just stop adding to the offset while checking the y position of the plant it also checks to see if the plants is beyond the border of the jar using xposition from left end of screen The following piece of code comes anywhere inside the dragElement function
+For this challenge I have added this feature such that if you double
+click inside the jar gravity takes over the plant and it falls to the bottom.
+For implementing this I have add 3px to the top offset of the element until
+it reaches the bottom of lid when it reaches the bottom that is its y-position
+ from the top > 480 then i just stop adding to the offset while checking the
+y position of the plant it also checks to see if the plants is beyond the
+border of the jar using xposition from left end of screen The following piece
+of code comes anywhere inside the dragElement function
 
 Code:
 	document.addEventListener("dblclick", (event) => {
@@ -154,7 +162,15 @@ Code:
 	});
 
 Assignment:
-I chose the Node interface, a big part of the DOM API. The Node interface represents a single node in the document tree and serves as the base class for many DOM objects such as Element, Document etc. It provides properties and methods like .parentNode, .childNodes which are applicable to all node types.
+I chose the Node interface, a big part of the DOM API. The Node interface represents
+a single node in the document tree and serves as the base class for many DOM objects
+such as Element, Document etc. It provides properties and methods like .parentNode,
+.childNodes which are applicable to all node types.
 Example: Using Node in Discord
-In web applications like Discord, nodes are used to manage dynamic content. For example, when a user sends a message, the application creates a new text node or element node to display the message in the chat interface. Behind the scenes, methods like .appendChild() to add a message node to the chat container and .removeChild() to delete messages are frequently utilized.
-For instance, when a user edits a message, Discord might access the .textContent property of a text node to replace its content. Similarly, Node methods like .contains() help determine if a specific message node is part of the currently displayed thread.
+In web applications like Discord, nodes are used to manage dynamic content.
+For example, when a user sends a message, the application creates a new text node or element node
+to display the message in the chat interface. Behind the scenes, methods like .appendChild() to
+add a message node to the chat container and .removeChild() to delete messages are frequently utilized.
+For instance, when a user edits a message, Discord might access the .textContent property of a
+text node to replace its content. Similarly, Node methods like .contains() help determine if a
+specific message node is part of the currently displayed thread.
