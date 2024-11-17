@@ -8,10 +8,13 @@ Imagine you are designing, or redesigning, your personal web site. Create a grap
 
 ScreenShot:
 MarkUp:
+```
 ![A Little About Me!](https://github.com/user-attachments/assets/987eeb99-5aba-4a88-b71f-08b09abd6050)
+```
 WebPage:
+```
 ![image](https://github.com/user-attachments/assets/7184b0f8-d66b-402c-a48b-cdc6901689b5)
-
+```
 
 Code:
 
