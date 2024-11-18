@@ -1,4 +1,4 @@
-3-typing-game
+```3-typing-game
 
 Challenge:
 Add more functionality
@@ -439,3 +439,4 @@ CSS:
   border: 5px solid lightgreen;
   border-radius: 5px;
 }
+```
