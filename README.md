@@ -30,7 +30,8 @@ Part four is to create a high score I did this using,
         message = `CONGRATULATIONS! You finished with a new Highscore of ${elapsedTime / 1000} seconds.`;
         localStorage.setItem("hs",elapsedTime/1000);
       }
-Part three was done by a setting a divs style hidden and visible in which both highscore and congrats message is displayed
+Part three was done by a setting a divs style hidden and visible in which both highscore and
+congrats message is displayed
 
 Here is the entire code:
 
