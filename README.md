@@ -8,9 +8,10 @@ Add more functionality
 - Display a modal dialog box with the success message
 - Store high scores using
 
+![logo](https://github.com/user-attachments/assets/204ff83d-4f51-41a7-98e5-a810e5eb318c)
 
 
-
+transactions
 Soulution:
 
 Part One of the challenge was to disable input event listener I did this function by,
